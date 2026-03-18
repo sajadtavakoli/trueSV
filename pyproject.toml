@@ -1,0 +1,41 @@
+
+
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "trueSV"
+version = "1.0.0"
+description = "trueSV: trustworthy deep learning-based structural variant calling "
+readme = "README.md"
+requires-python = ">=3.7"
+license = { text = "MIT" }
+authors = [{ name = "Sajad Tavakoli" }]
+keywords = ["genomics", "structural-variants", "long-read", "deep-learning", "yolo"]
+classifiers = [
+  "Programming Language :: Python :: 3",
+  "License :: OSI Approved :: MIT License",
+  "Operating System :: POSIX :: Linux",
+  "Topic :: Scientific/Engineering :: Bio-Informatics"
+]
+
+dependencies = [
+  "numpy==1.26.4",
+  "opencv-python",
+  "torch>=2.1",
+  "ultralytics==8.3.58",
+  "pysam",
+  "joblib",
+]
+
+[project.scripts]
+trueSV = "trueSV.cli:main"
+
+[tool.setuptools.package-data]
+# include non-python files if needed (e.g., default configs)
+trueSV = ["py.typed"]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["trueSV*"]
