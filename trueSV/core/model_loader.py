@@ -14,7 +14,7 @@ def load_model(model_path: str | None = None):
 
     if not model_path.exists():
         model_path.parent.mkdir(parents=True, exist_ok=True)
-        print(f"[ARCLID] Downloading hifi model 1 ...")
+        print(f"[trueSV] Downloading hifi model 1 ...")
         urllib.request.urlretrieve(MODEL_URL, model_path)
     model = YOLO(str(model_path))
 
