@@ -58,7 +58,7 @@ def main():
         sample=sample,
         contigs=contigs,
         lengths=lengths,
-        fast=fast,
+        fast=1, # we set it to 1 (always fast)
     )
 
 
