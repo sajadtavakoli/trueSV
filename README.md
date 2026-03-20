@@ -5,7 +5,7 @@
 
 
 # trueSV
-**trueSV: Trustworthy Deep Learning-based STructural Variant Calling**
+**trueSV: Trustworthy Deep Learning-based Structural Variant Calling**
 
 trueSV is a deep learning-based tool for detecting structural variants, excelling at low coverage (5×-10×). 
 
