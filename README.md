@@ -1,3 +1,14 @@
+<p align="center">
+  <img src="zfiles/trueSV_logo.jpg" alt="trueSV logo" width="320">
+</p>
+
+<h1 align="center">trueSV</h1>
+
+<p align="center">
+  A trustworthy deep learning-based structural variant caller.
+</p>
+
+
 # trueSV
 **trueSV: Trustworthy Deep Learning-based STructural Variant Calling**
 
