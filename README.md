@@ -12,7 +12,7 @@ trueSV is a deep learning-based tool for detecting structural variants, excellin
 
 
 ## 🧭 Features
-- Detects insertions, deletions, inversions, duplications, and inverted duplications using YOLOv11m deep learning
+- Detects insertions, deletions, inversions, duplications, and inverted duplications using YOLOv11m 
 - Maintains high accuracy even at low sequencing coverage  
 - High accuracy for large SVs
 - This version supports PacBio HiFi, PacBio CLR, and ONT data 
