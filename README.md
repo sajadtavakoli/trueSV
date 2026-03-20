@@ -3,6 +3,8 @@
 
 trueSV is a deep learning-based tool for detecting structural variants, excelling at low coverage (5×-10×). 
 
+![New Microsoft Visio Drawing2](https://github.com/user-attachments/assets/604b2fd5-b899-44c6-a499-a52139eb0ca1)
+
 
 
 
