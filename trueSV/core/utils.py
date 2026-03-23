@@ -126,7 +126,7 @@ def find_insertions(cigar_tuple, seq_with_ins, split_sup_strand):
 
                 split_sup_strand_flag = np.array([split_sup_strand]*length, dtype=np.uint8)
                 insertions.append((start_no_ins, length, seq, ins_flag, split_sup_strand_flag))
-                index_with_ins += length       
+            index_with_ins += length       
         #elif op in [0, 2, 3, 4, 6, 7, 8]: 
         else:
             index_with_ins += length
